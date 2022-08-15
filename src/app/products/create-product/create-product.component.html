@@ -1,0 +1,35 @@
+<p>create-product works!</p>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <form [formGroup]="productForm" (ngSubmit)="createProduct()">
+
+                <div class="form-group row col-md-6 ">
+                    <label for="productName">Product Name</label>
+                    <input type="text" id="productName" formControlName="productName">
+                </div>
+
+                <div class="form-group row col-md-6 ">
+                    <label for="productDescription">Product Description</label>
+                    <input type="text" id="productDescription" formControlName="productDescription">
+                </div>
+
+                <div class="form-group row col-md-6 ">
+                    <label for="productPrice">Product Price</label>
+                    <input type="text" id="productPrice" formControlName="productPrice">
+                </div>
+
+                <div class="form-group row col-md-6 ">
+                    <label for="productQuantity">Product Quantity</label>
+                    <input type="text" id="productQuantity" formControlName="productQuantity">
+                </div>
+
+                <button type="submit" >Submit</button>
+                <button type="button" [routerLink]="['/products']" >Back</button>
+                
+            </form>
+        </div>
+    </div>
+</div>

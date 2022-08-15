@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 9,
+      "productName": "Mi note 7s",
+      "productDescription": "Mobile",
+      "productPrice": "15000",
+      "productQuantity": "5"
+    },
+    {
+      "productName": "Mi note 11",
+      "productDescription": "Mobile",
+      "productPrice": "14000",
+      "productQuantity": "5",
+      "id": 10
+    },
+    {
+      "id": 11,
+      "productName": "Samsung M32",
+      "productDescription": "Mobile",
+      "productPrice": "14000",
+      "productQuantity": "10"
+    }
+  ]
+}
